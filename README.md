@@ -1,5 +1,5 @@
 # ESP32animatedGifDMA
-animated Gifs on Led matrix with very basic ftp  
+Animated Gifs on Led matrix with very basic ftp  
 
 Use Winscp to upload file to the SPIFFS area.  
 
