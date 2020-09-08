@@ -45,8 +45,8 @@ FtpServer ftpSrv;
 #include "ESP32-RGB64x32MatrixPanel-I2S-DMA.h"
 
 //////////////////////////////////////////////////////////////////////////////
-const char *ssid = "testreserved";
-const char *password = "Pa55w0rd!6101";
+const char *ssid = "YOUR-SSID";
+const char *password = "YOUR-PASSWORD";
 ////////////////////////////////////////////////////////////
 
 RGB64x32MatrixPanel_I2S_DMA matrix;
