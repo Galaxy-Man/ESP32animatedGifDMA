@@ -1,5 +1,7 @@
 # ESP32animatedGifDMA - add or delete Gifs whilst matrix is running.  
 
+This is a WIP.
+
 Animated Gifs on Led matrix with very basic ftp  
 
 Create SPIFFS area using partitions.csv or Arduino IDE. 
