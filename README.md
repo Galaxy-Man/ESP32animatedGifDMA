@@ -5,6 +5,12 @@ Create SPIFFS area using partitions.csv or Arduino IDE.
 
 Use Winscp to upload file to the SPIFFS area. Gifs are stored in src/data/gifs
 
+WinSCP  
+
+To force WinSCP to use the primary connection for data transfers:  
+In Login, go to Tools/Preferences.../Transfer/Background,  
+set "Maximum number of transfers at the same time" to 1.  
+
 username admin  
 password esp32  
 
