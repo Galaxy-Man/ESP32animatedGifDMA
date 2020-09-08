@@ -107,8 +107,8 @@ int x_offset, y_offset;
 #define R1 25
 #define G1 26
 #define BL1 27
-#define R2 5  // 21 SDA
-#define G2 19 // 22 SDL
+#define R2 5 
+#define G2 19 
 #define BL2 23
 #define CH_A 12
 #define CH_B 16
@@ -475,7 +475,7 @@ void setup()
   {
 
     Serial.println("SPIFFS opened!");
-    ftpSrv.begin("admin", "esp32"); //username, password for ftp.  set ports in ESP8266FtpServer.h  (default 21, 50009 for PASV)
+    ftpSrv.begin("admin", "esp32"); //username, password for ftp.  set ports in esp32FtpServer.h  (default 21, 50009 for PASV)
   }
 }
 
