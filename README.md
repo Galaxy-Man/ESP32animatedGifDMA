@@ -17,7 +17,8 @@ password esp32
 port 21  
 
 Use terminal to gain the IP address for ftp.  
-Remeber you are limited to how much SPIFFS space you have, something like...  
+Remeber you are limited to how much SPIFFS space you have, run serial terminal on ESP32
+when booting you will see something like...  
 
 Listing directory: /  
 
