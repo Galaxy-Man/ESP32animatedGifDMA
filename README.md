@@ -1,7 +1,9 @@
 # ESP32animatedGifDMA
 Animated Gifs on Led matrix with very basic ftp  
 
-Use Winscp to upload file to the SPIFFS area.  
+Create SPIFFS area using partitions.csv or Arduino IDE. 
+
+Use Winscp to upload file to the SPIFFS area. Gifs are stored in src/data/gifs
 
 username admin  
 password esp32  
@@ -9,3 +11,14 @@ password esp32
 port 21  
 
 Use terminal to gain the IP address for ftp.  
+Remeber you are limited to how much SPIFFS space you have, something like...  
+
+Listing directory: /  
+
+  FILE: /shock-gs.gif   SIZE: 34454  
+  FILE: /donkeyKong.gif SIZE: 84973  
+  FILE: /hello.gif      SIZE: 39645  
+
+Total bytes:    1378241  
+Used bytes:     161142  
+Free bytes:     1217099  
