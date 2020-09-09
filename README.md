@@ -1,6 +1,6 @@
-# ESP32animatedGifDMA - add or delete Gifs whilst matrix is running.  
+# ESP32animatedGifDMA - add or delete Gifs via FTP whilst matrix is running.  
 
-This is a WIP.
+This is a POC only.
 
 Animated Gifs on Led matrix with very basic ftp  
 
